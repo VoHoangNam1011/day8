@@ -45,9 +45,9 @@
                                                 <form:input style= "height:30px" path="bookDetails.numberOfPage" type="number" step="any" class="form-control" placeholder="Number Of Page" required="true" min="1"/>
                                             </div>
                         <div class="form-group">
-                            <label class="control-label">Publish Date (*)</label>
-                            <form:input style= "height:30px" path="bookDetails.publishDate" type="date" class="form-control" placeholder="Publish Date" required="true"/>
-                        </div>
+                                                    <label class="control-label">Publish Date (*)</label>
+                                                    <form:input style= "height:30px" path="bookDetails.publishDate" type="date" class="form-control" placeholder="Publish Date" required="true"/>
+                                                </div>
                         <div class="form-group">
                             <label class="control-label">Category (*)</label>
                             <form:select  path="category.id" class="form-control">

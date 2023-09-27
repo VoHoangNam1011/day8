@@ -9,7 +9,7 @@
         <meta name="author" content="">
             <link rel="icon" href="http://getbootstrap.com/facivon.ico">
                 <title>Book management demo</title>
-                <link rel='stylesheet' href='${pageContext.request.getContextPath()}/webjars/bootstrap/3.3.7/css/bootstrap.min.css'>
+                <link rel='stylesheet' href='${pageContext.request.getContextPath()}/webjars/bootstrap/5.1.3/css/bootstrap.min.css'>
 
                     <link rel="stylesheet" href="/resources/css/main.css">
 
@@ -19,10 +19,10 @@
                             <div class="navbar-header">
                                 <a class="navbar-brand" href="/">Spring Web MVC demo</a>
                             </div>
-                            <div id="navbar" class="navbar-collapse collapse">
-                                <ul class="nav navbar-nav"
-                                <li class="active"><a href="newBook">Add book</a></li>
-                            </ul>
+	                                <td>
+                                <ul class="nav navbar-nav">
+                                <button class="btn-sm btn-primary" onclick="location.href='newBook'">Add book</button>
+	                                <td>
                         </div>
                     </div>
                 </nav>

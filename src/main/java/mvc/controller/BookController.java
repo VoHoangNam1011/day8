@@ -1,5 +1,6 @@
 package mvc.controller;
 
+
 import mvc.entity.BookEntity;
 import mvc.entity.CategoryEntity;
 import mvc.repository.BookRepository;
@@ -88,7 +89,7 @@ public class BookController {
 
     }
     @InitBinder
-    public void innitBinder(WebDataBinder binder){
+    public void initBinder(WebDataBinder binder){
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         sdf.setLenient(true);
         binder.registerCustomEditor(Date.class, new CustomDateEditor(sdf, true));
